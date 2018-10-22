@@ -1,0 +1,9 @@
+---
+applications:
+- name: moviefun
+  path: target/moviefun.war
+  routes:
+  - route: arun-tom-moviefun.apps.evans.pal.pivotal.io
+  services:
+  - photo-storage
+  - paper-trail2
